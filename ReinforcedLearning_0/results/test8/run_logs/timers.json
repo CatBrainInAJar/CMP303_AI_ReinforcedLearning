@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1711411659",
+        "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\danni\\OneDrive\\Documents\\1. Uni work\\ReinforcedLearning_0\\venv\\Scripts\\mlagents-learn config/moveToGoal.yml --run-id=test8",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1711411728"
+    },
+    "total": 68.8483233,
+    "count": 1,
+    "self": 0.010338200000006736,
+    "children": {
+        "run_training.setup": {
+            "total": 0.12950760000000017,
+            "count": 1,
+            "self": 0.12950760000000017
+        },
+        "TrainerController.start_learning": {
+            "total": 68.7084775,
+            "count": 1,
+            "self": 0.0001548000000184402,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 68.70829669999999,
+                    "count": 1,
+                    "self": 68.70829669999999
+                },
+                "TrainerController._save_models": {
+                    "total": 2.599999999119973e-05,
+                    "count": 1,
+                    "self": 2.599999999119973e-05
+                }
+            }
+        }
+    }
+}

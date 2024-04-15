@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1711393584",
+        "python_version": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\danni\\OneDrive\\Documents\\1. Uni work\\ReinforcedLearning_0\\venv\\Scripts\\mlagents-learn --run-id=test1",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1711393647"
+    },
+    "total": 63.5795014,
+    "count": 1,
+    "self": 0.0039377999999956614,
+    "children": {
+        "run_training.setup": {
+            "total": 0.17115210000000003,
+            "count": 1,
+            "self": 0.17115210000000003
+        },
+        "TrainerController.start_learning": {
+            "total": 63.4044115,
+            "count": 1,
+            "self": 0.00021800000000382624,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 63.4041604,
+                    "count": 1,
+                    "self": 63.4041604
+                },
+                "TrainerController._save_models": {
+                    "total": 3.309999999601132e-05,
+                    "count": 1,
+                    "self": 3.309999999601132e-05
+                }
+            }
+        }
+    }
+}
