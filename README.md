@@ -1,6 +1,6 @@
 # CMP303_AI_ReinforcedLearning
 
-dannielle galiya smith - 2101323
+Dannielle smith -
 
 please be sure to use ;
  
